@@ -1,0 +1,12 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+RewriteBase /ChibchaWeb/
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule ^(.*)$ $1.php
+
+</IfModule>
