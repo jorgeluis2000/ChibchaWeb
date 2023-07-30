@@ -1,0 +1,23 @@
+/**
+* jQuery strength v0.2.5
+* https://github.com/amazingSurge/jquery-strength
+*
+* Copyright (c) amazingSurge
+* Released under the LGPL-3.0 license
+*/
+.icono {
+	cursor: pointer;
+}
+.size {
+	background: darkgrey;
+	padding: 16.8px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.pos {
+	margin-left: 100%;
+	margin-top: -44.7px;
+}
+.space {
+	margin-top: 20px;
+}
